@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .picText {
+            background-image: url('Image for Assignment 1.jpg');
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            height: 300px;
+            margin: 6px;
+            padding: 0 200px;
+            display: grid;
+            align-items: center;
+            text-align: center;    
+
+        }
+
+        .withoutPic {
+            text-align: center;
+            padding: 20px 200px;
+        }
+
+        .button {
+            background-color: #b1d126;
+            padding: 10px 30px;
+            border-radius: 5px;
+            border-style: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="picText">
+        <div>
+            <h1>
+                My Country
+            </h1>
+            <p>
+                This is paragraph
+            </p>
+        </div>
+    </div>
+    <div class="withoutPic">
+        <div>
+            <h2>
+                Heading text
+            </h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero error maiores cum officia quia vitae nihil
+                rerum quos quisquam sequi?
+            </p>
+            <button class="button">
+                Explore
+            </button>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
